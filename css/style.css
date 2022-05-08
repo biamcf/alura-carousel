@@ -1,0 +1,61 @@
+body {
+	overflow: hidden;
+	font-family: 'Inter', sans-serif;
+
+	
+}
+
+.section-carousel {
+	background-color: #f9fbff;
+	padding: 168px 0 168px 122px;
+
+}
+
+.carousel {
+	display: flex;
+	flex-direction: row;
+	
+}
+
+.carousel-item {
+	background-color: #fff;
+	min-width: 315px;
+	height: 235px;
+	position: relative;
+	left: 0px;
+	margin: 0px 10px;
+	transition: 0.5s all;
+	border-radius: 5px;
+}
+
+.red {
+	background-color: red;
+}
+
+.pink {
+	background-color: pink;
+}
+.red {
+	background-color: red;
+}
+.yellow {
+	background-color: yellow;
+}
+.blue {
+	background-color: blue;
+}
+.green {
+	background-color: green;
+}
+.grey {
+	background-color: grey;
+}
+.purple {
+	background-color: purple;
+}
+.black {
+	background-color: black;
+}
+.orange {
+	background-color: orange;
+}
