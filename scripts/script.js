@@ -15,10 +15,9 @@ function moveForward() {
 				clicks = max;
 				break;
 			}
-			else if (clicks >= 0 && clicks <= max) {
+			else if (clicks >= 0 && clicks <= max)
 		    	itens[i].style.left = (-740 * clicks) + "px";
-		    	console.log("Avançou para " + i);		
-			}
+			
 }
 
 function moveBack() {
@@ -29,9 +28,7 @@ function moveBack() {
 				l = 0;
 				break;
 			}
-			else if (clicks >= 0 && clicks <= max) {
+			else if (clicks >= 0 && clicks <= max)
 				itens[i].style.left = (-740 * clicks) + "px";
-				console.log("Recuou para " + i);
-			}
 }
 

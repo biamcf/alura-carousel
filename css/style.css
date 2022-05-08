@@ -1,20 +1,51 @@
 body {
 	overflow: hidden;
 	font-family: 'Inter', sans-serif;
-
-	
 }
 
 .section-carousel {
 	background-color: #f9fbff;
-	padding: 168px 0 168px 122px;
+	padding: 77px 0 77px 122px;
 
+}
+
+.header {
+	width: 90%;
+	vertical-align: middle;
+}
+
+.title-carousel, .buttons-carousel {
+    display: inline;
+}
+
+.title-carousel {
+	margin-left: 20px;
+	font-size: 32px;
+	font-weight: 900;
+	line-height: 41px;
+	color: #093366;
+}
+
+.buttons-carousel {
+	position: relative;
+	left: 58%;
+}
+
+.button {
+	color: #093366;
+	width: 32px;
+	height: 32px;
+}
+
+.button:hover, .carousel-item:hover {
+	cursor: pointer;
 }
 
 .carousel {
 	display: flex;
 	flex-direction: row;
-	
+	margin-top: 30px;
+	vertical-align: middle;
 }
 
 .carousel-item {
@@ -28,34 +59,3 @@ body {
 	border-radius: 5px;
 }
 
-.red {
-	background-color: red;
-}
-
-.pink {
-	background-color: pink;
-}
-.red {
-	background-color: red;
-}
-.yellow {
-	background-color: yellow;
-}
-.blue {
-	background-color: blue;
-}
-.green {
-	background-color: green;
-}
-.grey {
-	background-color: grey;
-}
-.purple {
-	background-color: purple;
-}
-.black {
-	background-color: black;
-}
-.orange {
-	background-color: orange;
-}

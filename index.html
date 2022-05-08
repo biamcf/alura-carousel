@@ -10,10 +10,13 @@
 	<body>
 		<div class="section-carousel">
 			<div class="header">
-				<h2>Cursos mais recentes</h2>
+				<h2 class="title-carousel">Cursos mais recentes</h2>
 
-				<ion-icon onclick="moveBack()" name="chevron-back-circle"></ion-icon>
-				<ion-icon onclick="moveForward()" name="chevron-forward-circle"></ion-icon>
+				<div class="buttons-carousel">
+					<ion-icon class="button" onclick="moveBack()" name="chevron-back-circle"></ion-icon>
+					<ion-icon class="button" onclick="moveForward()" name="chevron-forward-circle"></ion-icon>	
+				</div>
+				
 			</div>
 			
 			<div class="carousel">
@@ -27,9 +30,7 @@
 				<div class="carousel-item"></div>
 				<div class="carousel-item"></div>
 			</div>
-			
 		</div>
-		
 		
 	    <!--Para poder usar os icons-->
 		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
