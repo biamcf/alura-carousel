@@ -1,18 +1,17 @@
 body {
-	overflow: hidden;
 	font-family: 'Inter', sans-serif;
+	overflow: hidden;
 }
 
 .section-carousel {
 	background-color: #f9fbff;
 	padding: 77px 0 77px 122px;
-
 }
 
 .header {
-	width: 90%;
-	display: flex;
 	align-items: center;
+	display: flex;
+	width: 90%;
 }
 
 .title-carousel, .buttons-carousel {
@@ -20,22 +19,22 @@ body {
 }
 
 .title-carousel {
-	margin-left: 20px;
+	color: #093366;
 	font-size: 32px;
 	font-weight: 900;
 	line-height: 41px;
-	color: #093366;
+	margin-left: 20px;
 }
 
 .buttons-carousel {
-	position: relative;
 	left: 58%;
+	position: relative;
 }
 
 .button {
 	color: #093366;
-	width: 32px;
 	height: 32px;
+	width: 32px;
 }
 
 .button:hover, .carousel-item:hover {
@@ -50,16 +49,16 @@ body {
 
 .carousel-item {
 	background-color: #fff;
-	min-width: 315px;
+	border: 1px solid #f2f7fe;
+	border-radius: 5px;
+	box-shadow: 4px 4px 20px rgba(120, 135, 182, 0.1);
+	box-sizing: border-box;
 	height: 235px;
-	position: relative;
 	left: 0px;
 	margin: 0px 25px 10px 0;
-	transition: 0.5s all;
-	border-radius: 5px;
-	box-sizing: border-box;
-	box-shadow: 4px 4px 20px rgba(120, 135, 182, 0.1);
-	border: 1px solid #F2F7FE;
+	min-width: 315px;
+	position: relative;
+	transition: 0.5s all;  /* Efeito de transição do carrossel*/
 }
 
 .container-content {
@@ -67,39 +66,39 @@ body {
 }
 
 .icon-course {
-	width: 60px;
-	height: 60px;
 	color: #46b8b0;
+	height: 60px;
+	width: 60px;
 }
 
 .title-course {
+    color: #0d3769;
+    font-size: 16px;
 	font-weight: 700;
-	font-size: 16px;
 	line-height: 18px;
-	margin-top: 23px;
 	margin-bottom: 33px;
-	color: #0d3769;
+	margin-top: 23px;
 }
 
 .duration-course {
-	padding: 13px 20px  0 20px;
-	border-top: 1px solid #F2F7FE;
-	display: flex;
 	align-items: center;
+	border-top: 1px solid #f2f7fe;
+	display: flex;
+	padding: 13px 20px  0 20px;
 }
 
 .duration-simbol {
-	width: 25px;
-	height: 25px;
 	color: #bec8d8;
+	height: 25px;
 	margin-right: 13px;
+	width: 25px;
 }
 
 .duration-text {
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 18px;
 	color: #d0d7e2;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 18px;
 }
 
 .duration-simbol, .duration-text {
