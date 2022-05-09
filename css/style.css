@@ -11,7 +11,8 @@ body {
 
 .header {
 	width: 90%;
-	vertical-align: middle;
+	display: flex;
+	align-items: center;
 }
 
 .title-carousel, .buttons-carousel {
@@ -45,7 +46,6 @@ body {
 	display: flex;
 	flex-direction: row;
 	margin-top: 30px;
-	vertical-align: middle;
 }
 
 .carousel-item {
@@ -54,8 +54,54 @@ body {
 	height: 235px;
 	position: relative;
 	left: 0px;
-	margin: 0px 10px;
+	margin: 0px 25px 10px 0;
 	transition: 0.5s all;
 	border-radius: 5px;
+	box-sizing: border-box;
+	box-shadow: 4px 4px 20px rgba(120, 135, 182, 0.1);
+	border: 1px solid #F2F7FE;
 }
 
+.container-content {
+	padding: 28px 20px 0;
+}
+
+.icon-course {
+	width: 60px;
+	height: 60px;
+	color: #46b8b0;
+}
+
+.title-course {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 18px;
+	margin-top: 23px;
+	margin-bottom: 33px;
+	color: #0d3769;
+}
+
+.duration-course {
+	padding: 13px 20px  0 20px;
+	border-top: 1px solid #F2F7FE;
+	display: flex;
+	align-items: center;
+}
+
+.duration-simbol {
+	width: 25px;
+	height: 25px;
+	color: #bec8d8;
+	margin-right: 13px;
+}
+
+.duration-text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 18px;
+	color: #d0d7e2;
+}
+
+.duration-simbol, .duration-text {
+	display: inline-block;
+}

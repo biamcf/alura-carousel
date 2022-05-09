@@ -17,7 +17,6 @@ function moveForward() {
 			}
 			else if (clicks >= 0 && clicks <= max)
 		    	itens[i].style.left = (-740 * clicks) + "px";
-			
 }
 
 function moveBack() {
