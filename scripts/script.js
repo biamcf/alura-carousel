@@ -9,25 +9,20 @@ else
 
 function moveForward() {
 	clicks++;
-	
-		for(let i = 0; i < itens.length; i++)
-			if (clicks > max) {
-				clicks = max;
-				break;
-			}
-			else if (clicks >= 0 && clicks <= max)
-		    	itens[i].style.left = (-740 * clicks) + "px";
+
+	if (clicks > max)
+		clicks = max;
+	else
+	    for(let i = 0; i < itens.length; i++)
+		    itens[i].style.left = (-740 * clicks) + "px";
 }
 
 function moveBack() {
-	clicks--; 
+	clicks--;
 
-		for(let i = 0; i < itens.length; i++)
-			if (clicks < 0) {
-				l = 0;
-				break;
-			}
-			else if (clicks >= 0 && clicks <= max)
-				itens[i].style.left = (-740 * clicks) + "px";
+	if (clicks < 0)
+		clicks = 0;
+	else
+	    for(let i = 0; i < itens.length; i++)
+	        itens[i].style.left = (-740 * clicks) + "px";
 }
-
